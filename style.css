@@ -102,3 +102,11 @@ nav label:before {
 w3-black w3-xlarge w3-padding-32 {
     align-content: right;
 }
+/* #contact{
+   display: flex;
+   justify-content: center;
+} */
+#scrolling-box{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
