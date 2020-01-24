@@ -1,5 +1,9 @@
 import React from 'react';
+import './App.css';
+import {Router} from './Router'
 import logo from './logo.svg';
+import Navigation from '../Components/Navigation';
+import {Provider} from 'react-redux'
 import './App.css';
 
 function App() {
