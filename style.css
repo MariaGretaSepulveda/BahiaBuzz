@@ -31,12 +31,12 @@ nav a {
 }
 nav a:hover {
 	background: #adacac;
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 nav li {
 	position: relative;
 	line-height: 50px;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	text-align: center;
 }  
 nav input,
@@ -45,7 +45,7 @@ nav label {
 	width: 36px; 
 	height: 36px; 
 	background: #555; 
-	color: #fff; 
+	color: rgb(255, 255, 255); 
 	text-align: center; 
 	line-height: 36px;
 	font-size: 1.6rem;
@@ -73,7 +73,7 @@ nav label:before {
    }
 	nav ul {
 		transform: translateY(0);
-		box-shadow: 0 0 5px rgba(0,0,0, .7);
+		box-shadow: 0 0 5px rgba(180, 24, 24, 0.7);
       transition: all .5s;
       position: absolute;
       width: 100%;
