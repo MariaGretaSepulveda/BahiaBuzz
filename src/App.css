@@ -1,7 +1,7 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
 html {font-size: 62.5%; font-family: 'Open Sans', sans-serif;}
-body {font-size: 1.6rem; min-height: 100vh;}
+body {font-size: 1.6rem; min-height: 100vh;color: brown;}
 h1 {font-size: 3rem; margin-bottom: 1rem;}
 h2 {font-size: 1.6rem;}
 header {position: relative;}
@@ -36,7 +36,7 @@ nav a:hover {
 nav li {
 	position: relative;
 	line-height: 50px;
-	color: #fff;
+	color: rgb(59, 44, 101);
 	text-align: center;
 }  
 nav input,
@@ -44,8 +44,8 @@ nav label {
 	display: none;
 	width: 36px; 
 	height: 36px; 
-	background: #555; 
-	color: #fff; 
+	background: rgb(117, 41, 41); 
+	color: rgb(54, 5, 5); 
 	text-align: center; 
 	line-height: 36px;
 	font-size: 1.6rem;
@@ -98,12 +98,14 @@ nav label:before {
 	}  
 }
 w3-black w3-xlarge w3-padding-32 {
-    align-content: right;
+	display: flex;
+	justify-content: center;w3-col m6
 }
-   #contact{
-   display: flex;
-   justify-content: center;
+   #contact {
+   display:flex;
+   justify-content:center;
    } 
+   
    #scrolling-box{
     scroll-behavior: smooth;
     overflow-y: scroll;
@@ -114,3 +116,8 @@ img#logo {
 	width: 20px;
    
 }
+w3-col m6 {
+	display:flex;
+	justify-content:center;
+	} 
+
